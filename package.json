@@ -1,0 +1,15 @@
+{
+  "name": "endpoint_learning",
+  "version": "1.0.0",
+  "description": "Learning project that creates some simple RESTful endpoints in JS",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "author": "Nazmul Idris",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
