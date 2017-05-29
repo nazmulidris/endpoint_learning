@@ -1,7 +1,6 @@
 let serviceMethod = (req, res) => {
   res.json({
-             msg:
-               'this is our api!'
+             msg: 'this is our api!',
            });
 };
 

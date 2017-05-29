@@ -2,14 +2,17 @@
   "name": "endpoint_learning",
   "version": "1.0.0",
   "description": "Learning project that creates some simple RESTful endpoints in JS",
-  "main": "server.js",
+  "main": "src/index.js",
   "scripts": {
-    "start":"node server.js"
+    "start": "node src/index.js"
   },
   "author": "Nazmul Idris",
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "flow-remove-types": "^1.2.1"
   }
 }
