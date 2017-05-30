@@ -4,18 +4,17 @@
   "description": "Learning project that creates some simple RESTful endpoints in JS",
   "main": "lib/index.js",
   "scripts": {
-    "build":"flow-remove-types src/ -d lib/",
-    "prepublish":"npm run build",
-    "prestart":"npm run build",
+    "build": "flow-remove-types src/ -d lib/",
+    "postinstall": "npm run build",
+    "prestart": "npm run build",
     "start": "node lib/index.js"
   },
   "author": "Nazmul Idris",
   "license": "Apache-2.0",
   "dependencies": {
     "body-parser": "^1.17.1",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "flow-remove-types": "^1.2.1"
+    "express": "^4.15.2",
+    "flow-remove-types": "^1.2.1",
+    "flow-bin": "^0.41.0"
   }
 }
