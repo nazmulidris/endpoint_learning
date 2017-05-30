@@ -2,9 +2,11 @@
   "name": "endpoint_learning",
   "version": "1.0.0",
   "description": "Learning project that creates some simple RESTful endpoints in JS",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "build":"flow-remove-types src/ -d lib/",
+    "prepublish":"npm run build",
+    "start": "node lib/index.js"
   },
   "author": "Nazmul Idris",
   "license": "Apache-2.0",
